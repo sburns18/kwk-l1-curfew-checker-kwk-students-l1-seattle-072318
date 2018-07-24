@@ -1,19 +1,9 @@
-def simple_curfew_checker(time)
-  # code goes here
+def simple_curfew_checker(time = 10)
+  if time <= 11 
+    puts "You made curfew!"
+  elsif time > 11 
+    puts "You didn't make curfew."
 end
 
-def curfew_checker(time)
-  # code goes here
-end
+puts simple_curfew_checker
 
-def complex_curfew_checker(time)
-  # code goes here
-end
-
-def deluxe_curfew_checker(time)
-  # code goes here
-end
-
-def platinum_curfew_checker(current_time, curfew_time)
-  # code goes here
-end
